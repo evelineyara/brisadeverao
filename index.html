@@ -7,6 +7,42 @@
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
 <body>
-   
+   <main>
+    <h1>Brisa de Verão</h1>
+    <p>Precisando de umas férias? vem para o Brisa de Verão! descanse com a família ou sozinho, em um dos melhores hotéis da América do Sul!</p>
+
+    <section id="login">
+        <div id="imagem">
+            <!--aqui estão as imagens-->
+        </div>
+
+
+        <div id="formulário">
+            <h1>Login</h1>
+            <p>Sejabem-vindo(a) novamente. Faça login para acessar sua conta e começar sua reserva!</p>
+        </div>
+
+        <form action="login.php" method="post" autocomplete="on">
+            <div class="campo">
+                <input type="email" name="login" id="ilogin" placeholder="seu email" autocomplete="email" required maxlength="30">
+                
+                <label for="ilogin">Login</label>
+            </div>
+
+            <div class="campo">
+                <input type="password" name="senha" id="isenha" placeholder="sua senha" required autocomplete="current-password" minlength="8" maxlength="20">
+
+                <label for="isenha">Senha</label>
+            </div>
+
+            <input type="submit" value="Entrar">
+            <input type="reset" value="Limpar">
+
+            <p>
+                <a href="#">Esqueci a Senha</a>
+            </p>
+        </form>
+    </section>
+   </main>
 </body>
 </html>
