@@ -8,19 +8,19 @@
     }
 
     section#login {
-        width: 80vw;
-        height: 280px;
+        width: 80%;
+        height: 380px;
     }
 
     section#login > div#imagem {
-        float: left;
-        width: 30%;
+        float: right;
+        width: 50%;
         height: 100%;
     }
 
     section#login > div#formulário {
-        float: right;
-        width: 70%;
+        float: left;
+        width: 50%;
     }
 }
 
